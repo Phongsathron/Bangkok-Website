@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Kanit|Pattaya" rel="stylesheet">
+        <link rel="stylesheet" href="design.css">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>วิดีโอ - กรุงเทพมหานคร</title>
+    </head>
+    <body class="video-page">
+        <header>
+            <div class="inner-header">
+                <div class="brand">
+                    <a href="index.html">
+                        Bangkok
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html#travel">5 สถานที่น่าสนใจ</a></li>
+                        <li><a href="about.html">ผู้จัดทำ</a></li>
+                    </ul>
+                </nav>
+                <div class="clear"></div>
+            </div>
+        </header>
+        <div class="wrapper">
+            <h1 style="color: #FFFFFF;border: none;text-align: center">วิดีโอ</h1>
+            <video id="video" width="100%" autoplay controls>
+                <source src="video/bangkok.mp4" type="video/mp4">
+            </video>
+        </div>
+        <footer>
+            <div class="inner-footer">
+                Created by Phongsathron Kittiworapanya & Parin Sitikul
+            </div>
+        </footer>
+        <script>
+            document.getElementById('video').play();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,264 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    background: #E0E0E0;
+}
+
+body.video-page{
+    background: #000000;
+}
+
+.main-page header{
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+}
+
+.inner-header{
+    padding: 20px 0px;
+    width: 1024px;
+    margin: auto;
+}
+
+.brand{
+    width: 200px;
+    font-size: 35px;
+    float: left;
+    padding: 10px;
+    color: #000000;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.brand a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.main-page .brand,
+.video-page .brand{
+    color: #FFFFFF;
+}
+
+.main-page .brand a,
+.video-page .brand a{
+    color: #FFFFFF;
+}
+
+.main-nav{
+    float: right;
+    font-size: 21px;
+}
+
+.clear{
+    clear: both;
+}
+
+.main-nav ul{
+    display: inline-block;
+    list-style: none;
+}
+
+.main-nav li{
+    float: left;
+}
+
+.main-nav li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.main-page .main-nav li a,
+.video-page .main-nav li a{
+    color: #FFFFFF;
+}
+
+.main-nav li a:hover{
+    background: #E91E63;
+}
+
+.image-header{
+    height: 90vh;
+}
+
+.hero-intro{
+    background: #E91E63;
+    color: #FFFFFF;
+    padding: 20px;
+    position: relative;
+    float: right;
+    top: 180px;
+    right: 100px;
+    width: 450px;
+    font-size: 18px;
+}
+
+.hero-intro h1{
+    margin: 0px;
+    font-weight: 300;
+    text-decoration: underline;
+}
+.slogan{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 25px;
+}
+
+.wrapper{
+    width: 1024px;
+    margin: auto;
+}
+
+.wrapper h1{
+    border-bottom: 3px solid #D81B60;
+    font-family: 'Pattaya', sans-serif;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    font-weight: 300;
+}
+
+.intro{
+    font-size: 23px;
+    font-family: 'Kanit', sans-serif;
+    line-height: 40px;
+    padding: 20px 0px;
+}
+
+.intro p{
+    text-indent: 30px;
+}
+
+.card{
+    /* background: #FFFFFF; */
+    padding: 20px;
+}
+
+.card-white{
+    padding: 20px 0px;
+    background: #FFFFFF;
+}
+
+.travel-card{
+    width: 31%;
+    height: 200px;
+    float: left;
+    background: #BDBDBD;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #000000;
+    margin: 10px;
+    background-size: cover;
+}
+
+.travel-card-name{
+    position: relative;
+    top: 75%;
+    text-align: center;
+    display: block;
+    font-size: 23px;
+}
+
+.travel-name-highlight{
+    background: #D81B60;
+    padding: 3px 5px;
+}
+
+.inner-travel-hero{
+    width: 1024px;
+    margin: auto;
+}
+
+.image-travel-hero img{
+    width: 100%;
+}
+
+.travel-detail{
+    padding: 0px 20px;
+    font-size: 18px;
+}
+
+.travel-detail p{
+    text-indent: 50px;
+}
+
+.travel-img-right{
+    float: right;
+    padding: 0px 20px;
+}
+
+.header-highlight{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 31px;
+    color: #D81B60;
+}
+.header-highlight2{
+    /* font-family: 'Pattaya', sans-serif; */
+    color: #D81B60;
+    text-decoration: underline;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    border: 3px solid #D81B60;
+}
+
+.profile-pic img{
+    width: 100%;
+    position: relative;
+    bottom: 50px;
+}
+
+.member-item{
+    width: 44%;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.member-item p{
+    margin: 10px;
+}
+
+.member-item h3{
+    color: #D81B60;
+    font-size: 21px;
+}
+
+.member-row{
+    width: 80%;
+    margin: auto;
+}
+
+.btn{
+    background: #E0E0E0;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    color: #000000;
+    transition: ease-in-out 0.25s;
+    display: inline-block;
+}
+
+.btn:hover{
+    background: #BDBDBD;
+}
+
+.btn:active{
+    box-shadow: none;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+.inner-footer{
+    padding: 20px;
+    text-align: center;
+}
