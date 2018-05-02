@@ -183,17 +183,23 @@ body.video-page{
     text-indent: 50px;
 }
 
+.travel-detail .travel-img-right{
+    float: right;
+    padding: 0px 20px;
+    max-width: 300px;
+}
+.travel-detail .travel-img-left{
+    float: left;
+    padding: 0px 20px;
+    padding-right: 20px;
+    max-width: 300px;
+}
+
 .travel-detail img{
     margin: auto;
     display: block;
     position: relative;
     padding: 10px;
-}
-
-.travel-img-right{
-    float: right;
-    padding: 0px 20px;
-    max-width: 300px;
 }
 
 .header-highlight{
