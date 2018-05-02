@@ -25,11 +25,13 @@ body.video-page{
 
 .brand{
     width: 200px;
+    max-height: 50px;
     font-size: 35px;
     float: left;
     padding: 10px;
     color: #000000;
     font-family: 'Pattaya', sans-serif;
+    overflow: hidden;
 }
 
 .brand a{
@@ -276,4 +278,11 @@ footer{
 .inner-footer{
     padding: 20px;
     text-align: center;
+}
+
+.brand img{
+    display:  block;
+    max-height: 100px;
+    position: relative;
+    bottom: 16px;
 }
