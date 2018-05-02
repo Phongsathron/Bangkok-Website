@@ -220,13 +220,12 @@ body.video-page{
     height: 300px;
     text-align: center;
     margin: auto;
-    border: 3px solid #D81B60;
+    border: 3px solid #00C853;
 }
 
 .profile-pic img{
     width: 100%;
     position: relative;
-    bottom: 50px;
 }
 
 .member-item{
@@ -242,7 +241,7 @@ body.video-page{
 }
 
 .member-item h3{
-    color: #D81B60;
+    color: #2E7D32;
     font-size: 21px;
 }
 
